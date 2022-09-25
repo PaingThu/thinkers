@@ -97,7 +97,7 @@
                 <!-- Page and Profiles -->
                 <div class="page-profiles py-3">
                     <div class="row">
-                        <div class="col-12 col-4 p-3" v-for="(pf,index) in portfolio_list" :key="index">
+                        <div class="col-12 col-md-4 p-3" v-for="(pf,index) in portfolio_list" :key="index">
                             <img class="cover w-100 rounded p-3 shadow-sm mb-3" :src="pf.image" alt="">
                             <a :href="pf.link" class="label-btn d-block p-3" :style="bgColor(pf.btn_color)" target="_blank">{{pf.label}}</a>
                         </div>
