@@ -1,0 +1,47 @@
+section.home{
+    padding-top: unset;
+    .banner{
+    }
+    .content.greeting{
+        >.container{
+            >img{
+                width: 200px;
+            }
+            .page-profiles{
+                >.row{
+                    >.col{
+                        .cover{
+                        }
+                        .label-btn{
+                            background: $secondary_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content.courses{
+        background: $container-bg-color;
+        .container{
+            >.row{
+                .course{
+                    cursor: pointer;
+                    .label{
+                        display: block;
+                    }
+                }
+                .course:hover{
+                    border: 1px solid $primary_color;
+                }
+            }
+        }
+    }
+    .content{
+        .container{
+            h2,h4{
+                color: $primary_color;
+            }
+        }
+    }
+    
+}
