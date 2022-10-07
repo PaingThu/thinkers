@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    .navbar{
+        .container{
+            .navbar-collapse{
+                background: $primary_color;
+                .navbar-nav{
+                    .nav-item{
+                        border-bottom: 0.25px solid $container-bg-color;
+                        .nav-link{
+                            color: white;
+                        }
+                        .nav-link.active{
+                            color: white;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

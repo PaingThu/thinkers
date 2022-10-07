@@ -1,8 +1,19 @@
 section.home{
     padding-top: unset;
     .banner{
+        position: relative;
+        .see-more{
+            position: absolute;
+            bottom: 1em;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            cursor: pointer;
+            text-align: center;
+            opacity: 0.5;
+        }
     }
-    .content.greeting{
+    .content.about-me{
         >.container{
             >img{
                 width: 200px;

@@ -1,10 +1,13 @@
 <script setup>
-
+    import NavComponent from '/src/components/NavComponent.vue'
+    import FooterComponent from '/src/components/FooterComponent.vue'
 </script>
 
 
 <template>
-    <section class="about">
-        <h1 class="text-center">About</h1>
-    </section>
+   <NavComponent />
+   <section class="courses">
+       <h1 class="text-center">About</h1>
+   </section>
+   <FooterComponent />
 </template>

@@ -1,12 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Page from './Page.vue'
+import About from './pages/About.vue'
+import Home from './pages/Home.vue'
+import Courses from './pages/Courses.vue'
+import Contact from './pages/Contact.vue'
 
 const routes = [
     { 
-        path: '/thinkers-build/:page*', 
-        name: "page", 
-        component: Page,  
+        path: '', 
+        name: "", 
+        component: Home,  
+    },
+    { 
+        path: '/courses', 
+        name: "courses", 
+        component: Courses,  
+    },
+    { 
+        path: '/contact', 
+        name: "contact", 
+        component: Contact,  
+    },
+    { 
+        path: '/about', 
+        name: "about", 
+        component: About,  
     },
 ]
 
